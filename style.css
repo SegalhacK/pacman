@@ -1,0 +1,34 @@
+body {
+    background-color: black;
+    /* margin: 0px; */
+}
+
+/* .container{
+    margin: auto 0px;
+}*/
+
+div.row div {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+div.brick {
+    background-color: blue;
+    margin: 0px;
+}
+
+div.coin {
+    background: url('img/coin.gif') no-repeat center;
+}
+
+div#pacman {
+    background: url('img/pacman.gif') no-repeat center;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+
+div.empty {}
